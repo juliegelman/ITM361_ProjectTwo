@@ -8,13 +8,27 @@ body{
   text-align: center;
   background-color: gainsboro;
 }
-h1, h2, h3, h4{
+h1{
   font-style:normal;
   font-family:fantasy;
   color:inherit;
   text-align: center;
-  color: red;
+  color: black;
+}
+h2, h3, h4{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1em;
+}
 
+section#info{
+  padding:0;
+  margin:0;
+  overflow: auto;
+  background: white;
 }
 table {
   background-color: white;
@@ -25,7 +39,7 @@ table {
 nav#navigation ul li {
 	font-size: 1.5em;
 	display: inline-block;
-	padding: 10px;
+	padding: 12px;
 	background-color: gray;
 	border-radius: 4px;
 }
@@ -42,12 +56,19 @@ table, th, td{
 img {
   height: 50%;
   width: 50%;
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+
 }
 
 img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
 
 footer{
    text-shadow: 2px 2px 4px #000000;
