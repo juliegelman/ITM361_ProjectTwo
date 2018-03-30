@@ -15,8 +15,12 @@ h1{
   text-align: center;
   color: black;
 }
-h2, h3, h4{
+h2, h4{
   text-align: center;
+}
+h3{
+  text-align: center;
+  text-decoration: underline;
 }
 p{
   text-align: center;
@@ -30,6 +34,20 @@ section#info{
   overflow: auto;
   background: white;
 }
+
+section#experience, #education, #skills, #volunteer{
+
+	border-style: solid;
+	margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 1em;
+	padding: .4em;
+	background: rgba(76, 175, 80, 0.3);
+  text-align: left;
+
+
+}
+
 table {
   background-color: white;
   border-collapse: collapse;
@@ -42,6 +60,9 @@ nav#navigation ul li {
 	padding: 12px;
 	background-color: gray;
 	border-radius: 4px;
+}
+li{
+  text-align: center;
 }
 li a.active {
 	background-color: #FFFFFF;
