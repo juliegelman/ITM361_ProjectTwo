@@ -1,89 +1,79 @@
-body{
-background-attachment: fixed;
-background-size: cover;
-text-align: center;
-background-color: gainsboro;
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-color: gainsboro;
 }
-
-
-h1{
-  font-style:normal;
-  font-family:fantasy;
-  color:inherit;
-  text-align: center;
-  color: black;
+h1 {
+    font-style: normal;
+    font-family: fantasy;
+    color: inherit;
+    text-align: center;
+    color: black;
 }
-h2, h4{
-  text-align: center;
+h2, h4 {
+    text-align: center;
 }
-h3{
-  text-align: center;
-  text-decoration: underline;
+h3 {
+    text-align: center;
+    text-decoration: underline;
 }
-p{
-  text-align: center;
-  font-variant: small-caps;
-  font-size: 1em;
+p {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1em;
 }
-
-section#info{
-  padding:0;
-  margin:0;
-  overflow: auto;
-  background: white;
+section#info {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background: white;
 }
-
-section#experience, #education, #skills, #volunteer{
-
-	border-style: solid;
-	margin-left: 20em;
-  margin-right: 20em;
-  margin-top: 1em;
-	padding: .4em;
-	background: rgba(76, 175, 80, 0.3);
-  text-align: left;
-
+section#experience, #education, #skills, #volunteer {
+    border-style: solid;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 1em;
+    padding: .4em;
+    background: rgba(76, 175, 80, 0.3);
+    text-align: left;
 }
-
 table {
-  background-color: white;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav#navigation ul li {
-	font-size: 1.5em;
-	display: inline-block;
-	padding: 12px;
-	background-color: gray;
-	border-radius: 4px;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 12px;
+    background-color: gray;
+    border-radius: 4px;
 }
-li{
-  text-align: center;
+li {
+    text-align: center;
 }
 li a.active {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
-table, th, td{
-  border: 3px double black;
-  height: 40px;
-  text-align:center;
-
+table, th, td {
+    border: 3px double black;
+    height: 40px;
+    text-align: center;
 }
-
 img {
-  height: 50%;
-  width: 50%;
-  opacity: 1.0;
-  transition: opacity .55s ease-in-out;
-  -moz-transition: opacity .55s ease-in-out;
-  -webkit-transition: opacity .55s ease-in-out;
-
+    height: 50%;
+    width: 50%;
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
-
 img:hover {
     opacity: 0.6;
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
-}​
+}
+​
