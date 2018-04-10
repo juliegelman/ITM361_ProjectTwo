@@ -36,8 +36,8 @@ section#info {
 }
 section#experience, #education, #skills, #volunteer {
     border-style: solid;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: 25em;
+    margin-right: 25em;
     margin-top: 1em;
     padding: .4em;
     background-color: aliceblue;
@@ -51,7 +51,7 @@ table {
     margin-right: auto;
 }
 nav#navigation ul li {
-    font-size: 0.9em;
+    font-size: 1em;
     display: inline-block;
     padding: 12px;
     background-color: gray;
