@@ -37,6 +37,7 @@ section#experience, #education, #skills, #volunteer {
     padding: .4em;
     background-color: aliceblue;
     text-align: left;
+    font-variant: small-caps;
 }
 table {
     background-color: aliceblue;
