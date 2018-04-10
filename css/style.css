@@ -53,6 +53,7 @@ nav#navigation ul li {
 }
 li {
     text-align: center;
+    list-style-type: none;
 }
 li a.active {
     background-color: #FFFFFF;
