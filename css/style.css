@@ -36,7 +36,7 @@ section#info {
 }
 section#experience, #education, #skills, #volunteer {
     position: static;
-    border-style: solid;
+    border-style: double;
     margin-left: 25em;
     margin-right: 25em;
     margin-top: 1em;
